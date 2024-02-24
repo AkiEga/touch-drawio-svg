@@ -1,0 +1,35 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="191px" height="131px" viewBox="-0.5 -0.5 191 131" content="&lt;mxfile&gt;&lt;diagram id=&quot;JR0y9K1-RflX0vez5wRC&quot; name=&quot;ページ1&quot;&gt;jZRLc9sgEIB/jY7pWNLYda6W0+bQnpyZnKlYSztFLEUQ2fn1XRBYVjOZ6UXAty/2gYq6GS7frTD9T5KgimojL0V9LKqq2lf8DeA6g225nUFnUc6oXMAJ3yHBTaIeJYwrRUekHJo1bElraN2KCWtpWqudSa2jGtHBB3BqhfpIX1G6fqb76uvCnwG7Pkcud4+zZBBZOWUy9kLSdIfqp6JuLJGbd8OlARVql+sy2337RHq7mAXt/scgNeJNKJ9yK6qdYtNDz752Xdg9g5CouyxgZ4ssQ5PBD7IwhABm9GGVpMiGRNGF4g/ASzO3ZuTWgPNBygEMjtjGMBtQmLRGkNFHgOjHgcLRwWCiT9QtSpReB9c+fJT4xfGDtsuxIZa90yKEUfjHiy93mZglkdgOd809dnCJZXCDYlDydnSWfkMTE6qPmjRrHs6o1D9oNCImUh+3y+mFDIMHbkd9mHp0cGIeQk38QpjRG9iziqPQo5SgmVnyWkLo1OZ2Q1bjm33a7fI2Q/z2gLjc9soqyWCfpi49uzJP4bQMcfmYWH8/wFlRpIfT3Vwvs8WbNF75uIxxlN39C+qnvw==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="0" y="10" width="190" height="120" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 182px; height: 1px; padding-top: 0px; margin-left: 5px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 130px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h1>
+                                    Heading
+                                </h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="5" y="12" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    Heading...
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>
