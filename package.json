@@ -19,6 +19,11 @@
           "type": "string",
           "default": "img",
           "description": "The directory where the drawio.svg files will be created"
+        },
+        "touch-drawio-svg.img-file-prefix": {
+          "type": "string",
+          "default": "temp",
+          "description": "The prefix of the drawio.svg files"
         }
       }
     },
@@ -27,7 +32,16 @@
         "command": "touch-drawio-svg.create-new-drawio-svg",
         "title": "Touch drawio svg: create new drawio.svg file"
       }
-    ]
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "touch-drawio-svg.create-new-drawio-svg",
+          "when": "editorTextFocus && resourceExtname == .md",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:publish": "vsce publish minor -p ${VSCODE_EXT_API_TOKEN}",

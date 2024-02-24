@@ -27,7 +27,8 @@ async function touchSvgFile() {
 	try {
 		// Check if new file is already exist
 		for (let id = 0;; id++) {
-			let newFileName = `temp_${id}.drawio.svg`;
+			let prefix = conf.get("img-file-prefix")??"";
+			let newFileName = `${prefix}_${id}.drawio.svg`;
 			newFileUri = vscode.Uri.joinPath(ws.uri, imgDir, newFileName);
 			// let ret = await vscode.workspace.findFiles(newFileUri.fsPath);
 			if (!fs.existsSync(newFileUri.fsPath)) {
