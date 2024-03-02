@@ -3,6 +3,7 @@
 import * as vscode from 'vscode';
 import path from 'path';
 import fs from 'fs';
+import os from 'os';
 
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
@@ -45,12 +46,22 @@ async function touchSvgFile() {
 	// append a drawio.svg markdown link to active editor
 	editor.edit((e)=>{
 		if (ws && editor) {
-			let currentPos = editor.selection.end;
+			// make relative path of a *.drawio.svg file 
 			let parentDir = path.dirname(editor.document.uri.fsPath);
-			let relative_path_from_this_editor_doc = path.relative(parentDir, newFileUri.path);
-			e.insert(currentPos, `![](${relative_path_from_this_editor_doc})`)
+			let newFilePath = newFileUri.fsPath;
+
+			// Convert to relative path
+			let relativePath = "";
+			if (os.platform() === "win32"){
+				relativePath = path.win32.relative(parentDir, newFilePath).replace(/\\/g, "/");
+			} else {
+				relativePath = path.relative(parentDir, newFilePath);
+			}
+			
+			let currentPos = editor.selection.end;
+			e.insert(currentPos, `![](${relativePath})`);
 		}
-	})
+	});
 }
 
 export function activate(context: vscode.ExtensionContext) {
