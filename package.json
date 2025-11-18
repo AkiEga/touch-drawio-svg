@@ -64,10 +64,13 @@
     "@types/vscode": "^1.86.0",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
-    "@vscode/test-cli": "^0.0.6",
+    "@vscode/test-cli": "^0.0.12",
     "@vscode/test-electron": "^2.3.9",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3",
     "vsce": "^2.15.0"
+  },
+  "overrides": {
+    "glob": ">=11.1.0"
   }
 }
